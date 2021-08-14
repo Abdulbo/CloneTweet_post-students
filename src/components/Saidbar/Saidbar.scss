@@ -1,0 +1,45 @@
+.wrapper-saidBar {
+    width: 25%;
+    height: 100vh;
+    border-right: 1px solid rgb(228, 223, 223);
+
+    li {
+        display: flex;
+        align-items: center;
+        padding: 16px 0;
+        color: #000;
+
+        .twitIcons {
+            width: 40px;
+        }
+
+        img {
+            padding: 0 5px;
+            width: 25px;
+        }
+
+        .link {
+            font-family: sans-serif;
+            color: #000;
+            font-size: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link-blue {
+            transition: ease 0.5;
+            color: rgb(80, 171, 241);
+        }
+
+        .buttonTweet {
+            background-color: #50ABF1;
+            width: 230px;
+            padding: 15px;
+            border: none;
+            border-radius: 99px;
+            color: #fff;
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    }
+}

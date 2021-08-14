@@ -1,0 +1,20 @@
+.content-headre{
+    background-image: url(../../img/spring-alpine-valley-mountains-fields-landscape-1012567.jpg);
+    width:100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-right: 1px solid silver;
+    .img-profile{
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        left: 30px;
+        top: 70px;
+        position: absolute;
+    }
+
+    
+}
